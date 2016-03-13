@@ -1,0 +1,10 @@
+name: SurvivalBingo
+main: kr.nulli.survivalbingo.SurvivalBingo
+version: 1.0
+author: [Efe, horyu1234]
+website: http://nulli.kr/
+commands:
+  빙고:
+    description: SurvivalBingo Command.
+  빙고판:
+    description: SurvivalBingo Command.

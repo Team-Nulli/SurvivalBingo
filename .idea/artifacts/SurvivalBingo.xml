@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="SurvivalBingo">
+    <output-path>$PROJECT_DIR$/../../../../../Servers/1.8.8_test/plugins</output-path>
+    <root id="archive" name="SurvivalBingo.jar">
+      <element id="module-output" name="SurvivalBingo" />
+    </root>
+  </artifact>
+</component>
