@@ -417,11 +417,7 @@ public class BingoManager {
 
 		String name = ((matchType == MatchType.TEAM) ? ((getTeam(player) == Team.RED) ? "§c" : "§b") : "§e")
 				+ player.getName();
-		plugin.getServer().broadcastMessage(plugin.prefix + "===============================");
-		plugin.getServer().broadcastMessage(plugin.prefix + "");
-		plugin.getServer().broadcastMessage(plugin.prefix + name + "§r님께서 빙고판의 아이템을 획득했습니다.");
-		plugin.getServer().broadcastMessage(plugin.prefix + "");
-		plugin.getServer().broadcastMessage(plugin.prefix + "===============================");
+		plugin.getServer().broadcastMessage(plugin.prefix + name + "§r님께서 빙고판의 아이템을 획득했습니다!");
 
 
 		// 빙고 개수가 일정량을 초과할 경우 게임에서 승리한다.
