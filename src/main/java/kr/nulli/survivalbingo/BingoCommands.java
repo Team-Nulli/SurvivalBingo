@@ -473,25 +473,25 @@ public class BingoCommands implements CommandExecutor {
 
 		switch (page) {
 			case 1:
-				sender.sendMessage("/빙고 [1~2]");
-				sender.sendMessage("/빙고판");
-				sender.sendMessage("/빙고 참가");
-				sender.sendMessage("/빙고 참가취소");
-				sender.sendMessage("/빙고 가입 <레드/블루>");
-				sender.sendMessage("/빙고 탈퇴");
+				sender.sendMessage(plugin.prefix + "/빙고 [1~2]");
+				sender.sendMessage(plugin.prefix + "/빙고판");
+				sender.sendMessage(plugin.prefix + "/빙고 참가");
+				sender.sendMessage(plugin.prefix + "/빙고 참가취소");
+				sender.sendMessage(plugin.prefix + "/빙고 가입 <레드/블루>");
+				sender.sendMessage(plugin.prefix + "/빙고 탈퇴");
 				sender.sendMessage("");
 				sender.sendMessage("§b[Tip]§r 팀을 정하지 않은 참가자는 게임이 시작될 때 자동으로 팀이 정해집니다.");
 				break;
 			case 2:
-				sender.sendMessage("/빙고 <시작/중지>");
-				sender.sendMessage("/빙고 난이도 <쉬움/어려움/매우어려움>");
-				sender.sendMessage("/빙고 매치타입 <팀/서바이벌>");
-				sender.sendMessage("/빙고 좌표설정 <레드/블루>");
-				sender.sendMessage("/빙고 참가자 목록");
-				sender.sendMessage("/빙고 참가자 <추가/제거> <닉네임>");
-				sender.sendMessage("/빙고 팀 정보");
-				sender.sendMessage("/빙고 팀 <추가/제거> <레드/블루> <닉네임>");
-				sender.sendMessage("/빙고 리로드");
+				sender.sendMessage(plugin.prefix + "/빙고 <시작/중지>");
+				sender.sendMessage(plugin.prefix + "/빙고 난이도 <쉬움/어려움/매우어려움>");
+				sender.sendMessage(plugin.prefix + "/빙고 매치타입 <팀/서바이벌>");
+				sender.sendMessage(plugin.prefix + "/빙고 좌표설정 <레드/블루>");
+				sender.sendMessage(plugin.prefix + "/빙고 참가자 목록");
+				sender.sendMessage(plugin.prefix + "/빙고 참가자 <추가/제거> <닉네임>");
+				sender.sendMessage(plugin.prefix + "/빙고 팀 정보");
+				sender.sendMessage(plugin.prefix + "/빙고 팀 <추가/제거> <레드/블루> <닉네임>");
+				sender.sendMessage(plugin.prefix + "/빙고 리로드");
 				break;
 		}
 	}

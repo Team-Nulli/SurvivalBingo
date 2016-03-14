@@ -536,7 +536,7 @@ public class BingoManager {
 	public void broadcastStop(String name) {
 		plugin.getServer().broadcastMessage(plugin.prefix + "===============================");
 		plugin.getServer().broadcastMessage(plugin.prefix + "");
-		plugin.getServer().broadcastMessage(plugin.prefix + name+"님이 빙고 게임이 중지시키셨습니다!");
+		plugin.getServer().broadcastMessage(plugin.prefix + name + "님이 빙고 게임이 중지시키셨습니다!");
 		plugin.getServer().broadcastMessage(plugin.prefix + "");
 		plugin.getServer().broadcastMessage(plugin.prefix + "===============================");
 	}

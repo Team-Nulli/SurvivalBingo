@@ -57,15 +57,18 @@ public class SurvivalBingo extends JavaPlugin {
 		for (String sitem : itemStringList) {
 			ItemStack item;
 
-			String item_name = sitem.contains(":") ? sitem.split(":")[0] : sitem;
-			int item_name_int;
-			try { item_name_int = Integer.parseInt(item_name); }
-			catch (Exception e) { item_name_int = -1; }
+			String itemName = sitem.contains(":") ? sitem.split(":")[0] : sitem;
+			int itemNameInt;
+			try {
+				itemNameInt = Integer.parseInt(itemName);
+			} catch (Exception e) {
+				itemNameInt = -1;
+			}
 
-			if (item_name_int == -1)
-				item = new ItemStack(Material.getMaterial(item_name));
+			if (itemNameInt == -1)
+				item = new ItemStack(Material.getMaterial(itemName));
 			else
-				item = new ItemStack(Material.getMaterial(item_name_int));
+				item = new ItemStack(Material.getMaterial(itemNameInt));
 
 			if (sitem.contains(":")) {
 				Short durability = Short.parseShort(sitem.split(":")[1]);
